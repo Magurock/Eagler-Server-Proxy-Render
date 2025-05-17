@@ -1,7 +1,7 @@
 config-version = "2.7"
 bind = "0.0.0.0:25565"
 motd = ${MTOD}
-show-max-players = ${MAXPLAYER}
+show-max-players = 999
 online-mode = false
 force-key-authentication = false
 prevent-client-proxy-connections = false
@@ -19,10 +19,6 @@ lobby = "localhost:65535"
 3 = ${SERVER3}
 4 = ${SERVER4}
 5 = ${SERVER5}
-6 = ${SERVER6}
-7 = ${SERVER7}
-8 = ${SERVER8}
-9 = ${SERVER9}
 try = [ "lobby",]
 
 [forced-hosts]
